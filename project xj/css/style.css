@@ -35,11 +35,11 @@ body{
     padding: 15% 0 0 0;
 }
 .h1_block_inform{
-    text-align: center;
-    color: white;
     font-family: Raleway;
     font-weight: 600;
     font-size: 37px;
+    text-align: center;
+    color: white;
 }
 .block_border_bottom{
     width: 85px;
@@ -48,14 +48,14 @@ body{
     padding: 15px 0;
 }
 .p_lorem{
-   color: white;
+    font-family: Lato;
+    font-weight: 300i;
+    font-size: 17px;
+    color: white;
     margin: auto;
     width: 40%;
     text-align: center;
     padding: 50px 0;
-    font-family: Lato;
-    font-weight: 300i;
-    font-size: 17px;
 }
 .block_block{
     padding: 200px 0 0 0;
@@ -71,12 +71,12 @@ body{
 
 /*----------- section-services------------*/
 .h2_block{
-    text-align: center;
-    font-size: 25px;
-    padding: 115px 0 80px 0;
     font-family: Raleway;
     font-weight: 600;
     font-size: 36px;
+    text-align: center;
+    font-size: 25px;
+    padding: 115px 0 80px 0;
 }
 .block_border_bottom_black{
     margin: auto;
@@ -96,17 +96,17 @@ body{
     text-align: center;
 }
 .h3_designe{
-    padding: 55px 0 0 0;
     font-family: Lato;
     font-weight: 300i;
     font-size: 19px;
+    padding: 55px 0 0 0;
 }
 .p_designe{
-    padding: 46px 0 0 0;
-    width: 75%;
     font-family: Lato;
     font-weight: 300i;
     font-size: 15px;
+    padding: 46px 0 0 0;
+    width: 75%;
 }
 
 /*-----------cancel section-services------------*/
@@ -120,18 +120,18 @@ body{
     justify-content: center;
 }
 .h2_dolore{
-    color: white;
-    justify-content: flex-start;
     font-family: Raleway;
     font-weight: 600;
     font-size: 36px;
+    color: white;
+    justify-content: flex-start;
 }
 .p_dolore{
-    color: white;
-    width: 90%;
     font-family: Lato;
     font-weight: 300i;
     font-size: 16px;
+    color: white;
+    width: 90%;
 }
 .block_text{
     display: flex;
@@ -142,22 +142,22 @@ body{
     padding-left: 80px;
 }
 .btn_block_text{
-    justify-content: flex-start;
-    color: white;
     font-family: Lato;
     font-weight: 300i;
     font-size: 16px;
+    justify-content: flex-start;
+    color: white;
 }
 
 /*-----------cancel section-about------------*/
 
 /*-----------section-work------------*/
 .h3_work{
+    font-family: Raleway;
+    font-weight: 600;
     text-align: center;
     padding: 116px 0 75px 0;
     font-size: 25px;
-    font-family: Raleway;
-    font-weight: 600;
 }
 .boks_border_black{
     margin: auto;
@@ -170,21 +170,9 @@ body{
     justify-content: center;
     padding: 90px 0 0 0;
 }
-.box_element_rgba{
-    padding-right: 50px;
-    margin-top: -50px;
-    margin-left: -30px;
-}
+
 .box_element_first{
     padding-right: 50px;
-}
-.blok{
-    display: flex;
-    width: 300px;
-}
-.box_element_rgba:hover .block{
-    background:rgba(0,0,0, 0.7);
-    display: flex;
 }
 .btn_more{
     display: flex;
@@ -194,8 +182,39 @@ body{
     padding: 20px 0;
     border: 2px solid black;
     margin-bottom: 80px;
+    margin-top: 70px;
 }
 
+.holder{
+    position:relative;   
+}
+.block{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(0,0,0, 0.4);
+    display:none;
+    width: 70%;
+    height: 67%;
+}
+.holder:hover .block{
+    display:block;
+}
+.svg{
+   display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+.h2_work{
+    font-family: Lato;
+    font-weight: 300i;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 110px 0 0 0;
+}
 
 
 /*-----------cancel section-work------------*/
@@ -211,13 +230,13 @@ body{
     justify-content: center;
 }
 .h2-footer{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 32px;
     display: flex;
     justify-content: center;
     padding: 115px 0 75px 0;
     color: white;
-    font-family: Raleway;
-    font-weight: 600;
-    font-size: 32px;
 }
 .border_white{
     width: 100px;
