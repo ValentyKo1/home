@@ -1,0 +1,51 @@
+
+.main-area {
+	padding: 1rem 0;
+}
+.container {
+	max-width: 70rem;
+	margin: auto;
+}
+
+.slider1 {
+    padding: 1rem 0;
+}
+.slider1__item {
+    min-height: 300px;
+    width: 300px;
+}
+
+.mydots {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+}
+.mydots li {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    border-radius: 14px;
+    border: 1px solid #19bd9a;
+    background: white;
+}
+.mydots li.slick-active {
+    background-color:#19bd9a;
+}
+img{
+    float: left;
+    padding-right: 380px;
+}
+.tet{
+    text-align: right;
+    padding-top: 30px;
+}
+.slider_h4{
+    padding-top: 10px;
+}
+.slider_p{
+    padding-top: 35px;
+}

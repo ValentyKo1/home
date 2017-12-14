@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font: 1rem 'Source Sans Pro', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    padding: 3rem 0;
+    background: lightgoldenrodyellow;
+}
+.header__top {
+    text-align: center;
+    font-size: 2rem;
+}
+.map {
+   height: 300px;
+}
