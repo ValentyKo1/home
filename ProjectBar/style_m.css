@@ -1,0 +1,83 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+   * {
+    margin: 0;
+    padding: 0;
+   }
+
+.menu-box_h1{
+    padding-top: 70px;
+    padding-bottom: 15px;
+    width: 600px;
+    border-bottom: 2px solid orange;
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+}
+.menu-box_img__header{
+    height: 480px;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    background-image: url(img_m/4a59667abca284160476609d20ffcd20.jpg);
+    margin-top: 60px;
+}
+
+
+
+.beer-h2{
+    width: 300px;
+    padding-top: 40px;
+    text-align: center;
+    margin: auto;
+    color: orange;
+    font-size: 26px;
+}
+.whiscey_h3{
+    width: 300px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: auto;
+    color: orange;
+    font-size: 26px;
+    border-bottom: 2px solid orange;
+}
+
+
+.wine-h2{
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: auto;
+    border-bottom: 2px solid orange;
+    color: orange;
+    font-size: 26px;
+}
+.menu-box_img__header_wine{
+    height: 550px;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    background-image: url(img_m/%D0%B2%D0%B8%D0%BD%D0%BE-0.jpg);
+    margin-top: 60px;
+}
+
+.snack-h2{
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: auto;
+    border-bottom: 2px solid orange;
+    color: orange;
+    font-size: 26px;
+}
+

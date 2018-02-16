@@ -1,0 +1,378 @@
+<!DOXTYPE html>
+<html>
+    <head>
+        <title>project bar</title>
+        <meta charset="utf-8">
+         <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+         <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+         <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700" rel="stylesheet">
+          <style type="text/css">
+            html, body {
+              margin: 0;
+              padding: 0;
+            }
+
+            .slider {
+                width: 80%;
+                margin: 100px auto;
+                box-sizing: border-box;
+                height: 100%;
+                padding: 70px 20px;
+            }
+
+            .slick-slide {
+              margin: 0px 20px;
+              box-sizing: border-box;
+            }
+
+            .slick-slide img {
+              width: 50%;
+              box-sizing: border-box;
+            }
+
+            .slick-prev:before,
+            .slick-next:before {
+              color: white;
+              box-sizing: border-box;
+            }
+
+
+            .slick-slide {
+              transition: all ease-in-out .3s;
+              opacity: .2;
+              box-sizing: border-box;
+            }
+
+            .slick-active {
+              opacity: .5;
+              box-sizing: border-box;
+            }
+
+            .slick-current {
+              opacity: 1;
+              box-sizing: border-box;
+            }
+          </style>
+
+    </head>
+    <body>
+        
+        <div id="page-preloader" class="preloader">
+            <div class="loader">
+            </div>
+        </div>
+        
+       <div id="home" class="header">
+        <div class="header__video-wrapp">
+            <div class="header__video-box">
+            <video class="header__video"   loop autoplay>
+               <source src="mp4/for%20site.mp4" type="video/mp4">
+            </video>
+            </div>
+        </div>
+        <div class='header__logo' onclick='document.getElementById("header__video").play();'>
+            <img class="img-logo" src="img/logo.png">
+             <div id="nav-menu" class="nav-menu">
+                <a class="nav__item" href="javascript://0" onclick="slowScrol ('#home')">Home</a>
+                <a class="nav__item" href="javascript://0" onclick="slowScrol ('#our')">Our</a>
+                <a class="nav__item" href="javascript://0" onclick="slowScrol ('#staff')">Staff</a>
+                <a class="nav__item" href="javascript://0" onclick="slowScrol ('#gallery')">Gallery</a>
+                <a class="nav__item" href="javascript://0" onclick="slowScrol ('#contact')">Contact</a>
+                <a class="nav__item" href="menu.html">Menu</a>
+            </div>
+          <a href="javascript://0" onclick="slowScrol ('#our')" class="button">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129" width="80px" height="80px">
+                <g>
+                    <path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" fill="#FFFFFF"/>
+                </g>
+            </svg>
+          </a>    
+        </div>
+      </div>
+        
+       <div id="our" class="our-story">
+           <div class="our-story_block">
+               <div class="our-story_block__img">
+                   <div class="our-story_h2">OUR STORY</div>
+                        <div class="our-story_p">The illegitimate son of rock'n'roll and brother of separation - this is how you can characterize Rock Bar, which is in the historical town and is a favorite place for progressive youth and curious foreigners all through the week. Crossing the threshold, each guest automatically becomes a good friend, who pours a stoppack of branded bourbon, deliciously fed and talked heart to heart, as with a godfather, who knows a hundred years. Any day, a holiday in the form of discounts on different parts of the bar menu and cuisine, and the weekend is unforgettable themed parties and a stream of quality music, which is not limited to all the famous rock hits. Therefore, the most fun - dance, and the most daring (drunken) beat the tattoo in our personal tattoo studio without leaving the ticket office, well, practically. Bourbon decoration is a pleasant atmospheric bonus to that fervent mood, which is created by the bourbon team with the utmost care and diligence. So, having heard that someone is going to "drink a beer in the Rock Bar", throw all the cases and stock up with the forces to dance and drink with the liver - we do not know how and do not want to.</div>
+              </div>
+           </div>
+       </div>
+        
+        <div id="staff" class="lazy-slider_img">
+            <section class="lazy slider" >
+                <div>
+                  <img src="img/262f_n.png">
+                    <p class="lazy-slider_p">Kirk Lee Hammett<br><br>
+American guitarist, songwriter, vocalist. Best known as a member of the band "Faster rock". He was a pupil of the guitar virtuoso Joe Satriani. He owns a series of ESP guitars (models KH). In addition to them uses Gibson Les Paul, Jackson Randy Rhoads, ESP Flying V and guitar company Fender. As a child, Kirk showed great interest in his brother's music collection, which significantly influenced his decision to engage in guitar. At the age of 15 he bought his first electric guitar for money earned in Burger King. Hammett grew up under the influence of bands like Led Zeppelin, Black Sabbath, Deep Purple, Status Quo, The Rolling Stones, Jimi Hendrix, UFO. The greatest influence on his work was rendered by Jimi Hendrix.</p>
+                </div>
+                <div>
+                  <img src="img/267_n.png">
+                   <p class="lazy-slider_p">Rita Conrat<br><br>
+Manager of the bar. These are some kind of junior managers who are directly above performers, workers and specialists (not managers). They are usually managers, coordinators, managers, who are subordinate to the executors (workers, specialists, sales representatives, agents) Generally, the majority of managers are lower-level managers. Most people start their management career in this capacity. Senior managers may have a small number of subordinates and limited powers.</p>
+                </div>
+                <div>
+                  <img src="img/422_n.png">
+                  <p class="lazy-slider_p">Harry Johnson<br><br>
+The barman is a bar worker who serves visitors at the bar counter. The author of the book "The Guide to the Bartender Harry Johnson." The barman welcomes guests to his establishment, reveals their taste preferences, informs about the assortment, offers the guests suitable drinks options, accepts orders and dispenses portions of alcoholic and non-alcoholic beverages, including cooked by himself cocktails.</p>
+                </div>
+                <div>
+                  <img src="img/481_n.png">
+                  <p class="lazy-slider_p">Ron McGovney, Dave Maystein<br><br>
+
+Ron McGovney (born November 2, 1978 in Los Angeles, California) is an American musician, best known as the band's first bass player, later replaced by Cliff Burton. Disenchanted with the music, Ron sold almost all the music. However, in a few years he joined the Phantasm group and made a significant contribution to their album.<br><br>
+
+David (Dave) Scott Mustaine is an American guitarist, vocalist, songwriter. The founder and permanent leader of the thrash metal band Megadeth, previously played in the band. The magazine Guitar World included Mustaine in his list of 100 best guitarists in the world [</p>
+                </div>
+                <div>
+                  <img src="img/628_n.png">
+                  <p class="lazy-slider_p">Lars Ulrich <br><br>(date: Lars Ulrich, born December 26, 1984, Gentofte, Denmark) is an American drummer, producer and actor of Danish origin. One of the founders of the Metallica group.
+
+His manner of playing is extremely diverse, starting from simple rhythms in The Black Album, to difficult parts on the band's first discs, such as "Master of Puppets", "Ride the Lightning" or "... And Justice for All". The latter was with the most difficult rhythms from the entire creation of the band.</p>
+                </div>
+                <div>
+                  <img src="img/brmen.png">
+                  <p class="lazy-slider_p">John Maystein<br><br>
+
+The owner of the bar. Opened the institution in 2009. To be proud of the fact that the institution has preserved the chamber's intimacy and wooden decoration, but now the main place is reserved for the bar counter. Guests are located on high bar stools behind the counter and small tables opposite, or on leather sofas at the few low tables at the entrance.</p>
+                </div>
+           </section>
+        </div>
+        <div id="gallery" class="block">
+        <div class="container main-area">
+                 <div class="grid">
+                    <div class="container-little-area_one"></div>
+                    <div class="container-little-area_two"></div>
+                    <div class="container-little-area_three"><p class="container-gallery_p">We are always open<br>_____<br>
+                    You can appreciate the best of America's wine straight from the cellar,
+                        from carefully degenerated grapes, manufactured using secret technology.</p></div>
+                    <div class="container-little-area_four"></div>
+                    <div class="container-little-area_five"></div>
+                    <div class="container-little-area_six"></div>
+                    <div class="container-little-area_seven"><p class="container-gallery_p"> * For you, always playing live music, old hits of rock, only complementing the atmosphere of this place.</p></div>
+                    <div class="container-little-area_eight"></div>
+                    <div class="container-little-area_nine"></div>
+                    <div class="container-little-area_ten"></div>
+                </div>
+        </div>
+        </div>
+        <div class="secion_img_footer">
+        <div id="contact" class="section-footer">
+            <h2 class="section-footer h2-footer">CONTACTS</h2>
+            <div class="section-footer border_white"></div>
+            
+        <div class="section-footer social_icon">
+                <div class="section-footer chield_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve" width="30px">
+                    <path d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411    c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513    c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101    c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104    c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194    c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485    c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z" fill="#FFFFFF"/></svg>
+                </div>
+                <div class="section-footer chield_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="30px" viewBox="0 0 96.124 96.123" style="enable-background:new 0 0 96.124 96.123;" xml:space="preserve">
+                        <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803   c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654   c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246   c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z" fill="#FFFFFF"/></svg>
+                </div>
+                <div class="section-footer chield_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="30px" viewBox="0 0 430.117 430.117" style="enable-background:new 0 0 430.117 430.117;" xml:space="preserve">
+<g>
+    <path id="LinkedIn" d="M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707   c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21   v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824   C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463   c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z    M5.477,420.56h92.184v-277.32H5.477V420.56z" fill="#FFFFFF"/></g></svg>
+                </div>
+                <div class="section-footer chield_icon">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="30px"
+	 viewBox="0 0 434.016 434.016" style="enable-background:new 0 0 434.016 434.016;" xml:space="preserve">
+<path style="fill:white;" d="M416.049,52.27c-10.508-11.324-25.72-17.356-45.207-17.928
+	c-55.02-1.774-93.932,27.496-115.651,86.986c-1.14,3.124-0.444,6.588,1.814,9.041c2.247,2.439,5.622,3.409,8.812,2.534
+	c6.246-1.718,12.44-2.588,18.412-2.588c8.018,0,18.689,1.474,24.001,8.497c4.077,5.39,4.632,13.472,1.649,24.02
+	c-2.518,8.899-15.476,32.721-31.515,57.929c-19.539,30.712-30.333,44.48-33.445,44.48c-10.31,0-47.565-165.194-48.589-168.817
+	c-10.686-37.86-16.05-56.864-50.798-56.864c-26.483,0-85.551,48.362-134.051,90.495c-2.983,2.591-5.495,4.774-7.44,6.436
+	c-4.688,4.008-5.395,10.97-1.607,15.849l9.038,11.644c3.807,4.906,10.751,5.93,15.812,2.331l0.497-0.354
+	c15.691-11.163,30.514-21.706,41.704-22.284c12.16-0.597,22.711,18.4,35.29,63.605c23.957,87.803,60.355,192.468,97.709,192.468
+	c39.036,0,85.605-33.091,145.802-111.429c54.482-70.902,83.655-127.135,85.529-168.048l0,0
+                               C435.222,89.372,429.245,66.493,416.049,52.27z"/></svg>
+                </div>
+                <div class="section-footer chield_icon_s">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px"
+	 viewBox="0 0 458.443 458.443" style="enable-background:new 0 0 458.443 458.443;" xml:space="preserve">
+<g>
+	<path style="fill:white;" d="M194.019,206.642c7.935-12.351,12.466-27.086,12.204-42.884
+		c-0.702-42.275-35.884-75.87-78.166-75.87H10.012C4.483,87.888,0,92.371,0,97.9v259.595c0,5.529,4.483,10.012,10.012,10.012
+		h131.861c48.941,0,89.482-39.226,89.682-88.167C231.678,249.346,216.804,222.754,194.019,206.642z M51.787,139.675h77.278
+		c13.995,0,25.382,11.386,25.382,25.382c0,13.995-11.386,25.382-25.382,25.382H51.787V139.675z M143.023,315.72H51.787v-73.494
+		h77.278h13.957c20.262,0,36.747,16.485,36.747,36.747C179.769,299.235,163.285,315.72,143.023,315.72z"/>
+	<path style="fill:white;" d="M458.443,260.931c0-60.447-47.642-109.623-106.203-109.623s-106.203,49.177-106.203,109.623
+		S293.68,370.555,352.24,370.555c35.534,0,68.552-18.216,88.324-48.729c2.465-3.804,4.704-7.779,6.691-11.876
+		c1.442-2.974-0.746-6.435-4.052-6.443l-52.206-0.13c-1.155-0.003-2.25,0.469-3.078,1.274c-9.858,9.585-21.944,14.116-35.679,14.116
+		c-25.945,0-47.694-19.405-53.108-45.274H448.05c5.74,0,10.393-4.653,10.393-10.393V260.931z M352.24,203.095
+		c19.002,0,35.75,10.413,45.486,26.145h-90.971C316.49,213.508,333.239,203.095,352.24,203.095z"/>
+	<path style="fill:white;" d="M396.37,138.44h-94.197c-4.395,0-7.958-3.563-7.958-7.958v-23.631c0-4.395,3.563-7.958,7.958-7.958
+                                 h94.197c4.395,0,7.958,3.563,7.958,7.958v23.631C404.328,134.878,400.765,138.44,396.37,138.44z"/></g></svg>
+                </div>
+            </div>
+        <div class="section-footer type_font">
+                      <div class="section-footer type_chield">   
+                          <form>
+                                <p><input type="name" name="q" placeholder="Name"></p>
+                          </form>
+                          <form>
+                                <p><input type="email" name="q" placeholder="Email"></p>
+                          </form>
+                     </div>
+                      <div class="section-footer type_chield_two">   
+                          <form>
+                                <p><input type="message" name="q" placeholder="Message"></p>
+                          </form>
+                     </div>
+                </div>
+                    <div class="section-footer btn_footer"><a class="a_footer" href="#">SEND</a></div>
+                    <div class="bor"></div>
+            </div>
+            </div>
+                    <div id="map"></div>
+            
+       <DIV ID = "toTop" > ^ Наверх </ DIV >
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/preloader.js" type="text/javascript"></script>      
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+  </script>
+      <script>
+      function initMap() {
+        // Styles a map in night mode.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 40.674223, lng: -73.9659497},
+          zoom: 14,
+          styles: [
+            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+            {
+              featureType: 'administrative.locality',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#263c3f'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#6b9a76'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#38414e'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#212a37'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#9ca5b3'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry',
+              stylers: [{color: '#746855'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#1f2835'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#f3d19c'}]
+            },
+            {
+              featureType: 'transit',
+              elementType: 'geometry',
+              stylers: [{color: '#2f3948'}]
+            },
+            {
+              featureType: 'transit.station',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#17263c'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#515c6d'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.stroke',
+              stylers: [{color: '#17263c'}]
+            }
+          ]
+        });
+          
+  var image = 'img/electric.png';
+  var beachMarker = new google.maps.Marker({
+    position: {lat:40.674223, lng:-73.9659497},
+    map: map,
+    icon: image
+  });
+      }
+    </script> 
+            <script type="text/javascript">
+ 
+$(function() {
+ 
+$(window).scroll(function() {
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#toTop').fadeIn();
+ 
+} else {
+ 
+$('#toTop').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#toTop').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+</script>
+   <script>
+         function slowScrol (id){
+           var offset = 0;
+           $('html, body').animate ({
+               scrollTop: $(id).offset ().top - offset
+           },1100);
+        return false;
+        }
+  </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYgIfrwnZSxYXn_VVMql3PW1EpFBluses&callback=initMap" async defer></script>
+    </body>
+</html>
