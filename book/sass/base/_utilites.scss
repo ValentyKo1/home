@@ -1,0 +1,30 @@
+@function em($target, $current:$baseFontSize) {
+  @return ($target / $current) * 1em;
+}
+
+@mixin noselect() {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@mixin e($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+@mixin m($modifier) {
+  &_#{$modifier} {
+    @content;
+  }
+}
+
+
+@mixin media($width) {
+  @media (min-width: $width) {
+    @content;
+  }
+}

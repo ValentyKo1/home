@@ -1,0 +1,61 @@
+.jumbotron{
+  margin-bottom: 0;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+.jumbotron#home {
+  background: url(#{$imgPath}pr_4.jpg) no-repeat right 0 fixed;
+  background-size: cover;
+}
+.jumbotron#testimonials {
+  background:url(#{$imgPath}img2.jpg) no-repeat right 0 fixed;
+  background-size: cover;
+}
+.jumbotron#portfolio {
+  background:url(#{$imgPath}img3.jpg) no-repeat right 0 fixed;
+  background-size: cover;
+}
+.jumbotron h1 {
+  margin-bottom:40px;
+}
+
+
+#services {
+  background: #34495e;
+}#team {
+   background: #16a085;
+ }
+#contact {
+  background: #c0392b;
+}
+#services,
+#team,
+#contact {
+  text-align:center;
+  color:#fefefe;	padding:48px;
+}
+#services .page-header small,
+#team .page-header small,
+#contact .page-header small {
+ 
+}
+
+#team img {
+  width:80%;
+}
+#team img,
+#services img {
+
+}
+#team img:hover,
+#services img:hover {
+  opacity: .8;
+}
+
+
+blockquote:before{
+  content:  "\201c";
+}
+blockquote:after{
+  content: "\201d";
+}

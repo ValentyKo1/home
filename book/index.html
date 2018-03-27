@@ -1,0 +1,417 @@
+<!doctype html>
+<html>
+<head>
+    <title>My site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+</head>
+<body>
+
+<nav class="navbar bg-primary navbar-inverse fixed-top navbar-toggleable-md">
+    <button class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse" data-target="#topMenu"
+            aria-controls="topMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="topMenu">
+            <div class="navbar-nav">
+                <li class="nav-item"><a data-scroll class="nav-link" href="#">Главная</a></li>
+                <li class="nav-item"><a data-scroll class="nav-link" href="#">Первые блюда</a></li>
+                <li class="nav-item"><a data-scroll class="nav-link" href="#">Вторые блюда</a></li>
+                <li class="nav-item"><a data-scroll class="nav-link" href="#">Салаты</a></li>
+                <li class="nav-item"><a data-scroll class="nav-link" href="#">Коктейли</a></li>
+                <li class="nav-item"><a data-scroll class="nav-link" href="#">Десерты</a></li>
+                <li class="nav-item"><a data-scroll class="nav-link" href="#">Консервация</a></li>
+                <li class="nav-item"><a data-scroll class="nav-link" href="#">Выпечка</a></li>
+                <li class="nav-item"><a data-scroll class="nav-link" href="#">Видео</a></li>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="jumbotron jumbotron-fluid" id="home">
+    <div class="container">
+            <div id="type_text"></div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form>
+                <div class="modal-body">
+                      <div class="form-group">
+                        <label class="label-control">E-mail</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="label-control">Password</label>
+                        <input type="text" class="form-control">
+                    </div>
+             </div>
+                <div class="modal-footer justify-content-start">
+                    <button type="button" class="btn btn-primary">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<header class="heder-top">
+		<h1 class="header-top__title">Bon appetit!Или привет с других стран.</h1>
+		<nav class="nav">
+			<button class="nav__item" data-filter="photo">Все</button>
+            <button class="nav__item" data-filter="new">Японская</button>
+            <button class="nav__item" data-filter="first">Французская</button>
+			<button class="nav__item" data-filter="second">Итальянская</button>
+			<button class="nav__item"  data-filter="third">Грузинская</button>
+		</nav>
+</header>
+<div class="block_gallery">
+<div class="container main-area">
+	<div class="gallery">
+		
+		<article class="photo first">
+            <a href="i/pr_1.jpg">
+                <figure>
+                    <img class="photo__img" src="i/pr_1.jpg">
+                    <figcaption><h2>First</h2></figcaption>
+                </figure>
+             </a>
+		</article> <!-- /.photo -->
+        <article class="photo new">
+            <a href="i/pr_1.jpg">
+                <figure>
+                    <img class="photo__img" src="i/pr_1.jpg">
+                    <figcaption><h2>First, 2014 year</h2></figcaption>
+                </figure>
+             </a>
+		</article>
+        <article class="photo first">
+            <a href="i/pr_1.jpg">
+                <figure>
+                    <img class="photo__img" src="i/pr_1.jpg">
+                    <figcaption><h2>First, 2014 year</h2></figcaption>
+                </figure>
+             </a>
+		</article>
+        <article class="photo second">
+            <a href="i/pr_1.jpg">
+                <figure>
+                    <img class="photo__img" src="i/pr_1.jpg">
+                    <figcaption><h2>First, 2014 year</h2></figcaption>
+                </figure>
+             </a>
+		</article>
+        <article class="photo third">
+            <a href="i/pr_1.jpg">
+                <figure>
+                    <img class="photo__img" src="i/pr_1.jpg">
+                    <figcaption><h2>First, 2014 year</h2></figcaption>
+                </figure>
+             </a>
+		</article>
+        <article class="photo third">
+            <a href="i/pr_1.jpg">
+                <figure>
+                    <img class="photo__img" src="i/pr_1.jpg">
+                    <figcaption><h2>First, 2014 year</h2></figcaption>
+                </figure>
+             </a>
+		</article>
+        <article class="photo third">
+            <a href="i/pr_1.jpg">
+                <figure>
+                    <img class="photo__img" src="i/pr_1.jpg">
+                    <figcaption><h2>First, 2014 year</h2></figcaption>
+                </figure>
+             </a>
+		</article>
+         <article class="photo third">
+            <a href="i/pr_1.jpg">
+                <figure>
+                    <img class="photo__img" src="i/pr_1.jpg">
+                    <figcaption><h2>First, 2014 year</h2></figcaption>
+                </figure>
+             </a>
+		</article>
+
+
+	</div> <!-- /.gallery -->
+
+</div> <!-- /.container -->
+</div>
+
+
+
+<section id="services">
+    <div class="container-fluid">
+        <div class="page-header">
+            <h1>Поиск рецепта <small>для тебя</small></h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img  class="rounded-circle" src="i/pr_1.jpg" alt="" width="300px">
+                <p class="lead">Prototyping</p>
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eveniet neque sunt.</p>
+            </div>
+            <div class="col-md-4  text-center">
+                <img  class="rounded-circle" src="i/pr_2.jpg" alt="" width="300px">
+                <p class="lead">Prototyping</p>
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eveniet neque sunt.</p>
+            </div>
+            <div class="col-md-4  text-center">
+                <img  class="rounded-circle" src="i/pr_2.jpg" alt="" width="300px">
+                <p class="lead">Prototyping</p>
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eveniet neque sunt.</p>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-md-4 text-center">
+                <img  class="rounded-circle" src="i/pr_1.jpg" alt="" width="300px">
+                <p class="lead">Prototyping</p>
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eveniet neque sunt.</p>
+            </div>
+            <div class="col-md-4  text-center">
+                <img  class="rounded-circle" src="i/pr_1.jpg" alt="" width="300px">
+                <p class="lead">Prototyping</p>
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eveniet neque sunt.</p>
+            </div>
+            <div class="col-md-4  text-center">
+                <img  class="rounded-circle" src="i/pr_1.jpg" alt="" width="300px">
+                <p class="lead">Prototyping</p>
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eveniet neque sunt.</p>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-md-4 text-center">
+                <img  class="rounded-circle" src="i/pr_1.jpg" alt="" width="300px">
+                <p class="lead">Prototyping</p>
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eveniet neque sunt.</p>
+            </div>
+            <div class="col-md-4  text-center">
+                <img  class="rounded-circle" src="i/pr_1.jpg" alt="" width="300px">
+                <p class="lead">Prototyping</p>
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eveniet neque sunt.</p>
+            </div>
+            <div class="col-md-4  text-center">
+                <img  class="rounded-circle" src="i/pr_1.jpg" alt="" width="300px">
+                <p class="lead">Prototyping</p>
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eveniet neque sunt.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="jumbotron jumbotron-fluid" id="testimonials">
+    <div class="container">
+       <h1 class="display-3">Testimonials</h1>
+        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem consequuntur dignissimos
+            eligendi enim ex facilis illum ipsa, iste laboriosam minima nam nostrum optio, quam quasi reprehenderit sed
+            tenetur voluptas.
+        </blockquote>
+        <blockquote>Accusamus animi asperiores assumenda dolor doloribus esse, illum iure odit pariatur sunt, unde
+            veritatis voluptatibus. Aliquam architecto distinctio dolorem eum eveniet, harum ipsam labore laboriosam
+            nesciunt quis! Asperiores, et, magni.
+        </blockquote>
+        <blockquote>Adipisci architecto, assumenda beatae cum cupiditate earum expedita explicabo facilis illum impedit,
+            iste laboriosam necessitatibus nihil non, nostrum odio quae quos rem sapiente sunt tenetur ut vel velit
+            vitae voluptatibus.
+        </blockquote>
+        <blockquote>A, ab asperiores aut consequatur doloremque eius enim et expedita explicabo facere fugit illo libero
+            maxime nam quam quas quis repudiandae ullam veniam veritatis! A ad assumenda delectus inventore ipsum.
+        </blockquote>
+     </div>
+</div>
+
+<div id="team">
+    <div class="container-fluid">
+        <div class="page-header">
+            <h1>Our team <small>of experts</small></h1>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img data-toggle="tooltip" data-placement="bottom" title="CEO amd Founder"
+                            src="i/persons/person1.png" alt="" class="rounded-circle">
+                    <p class="lead">CEO and Founder</p>
+                    <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nulla omnis quasi
+                        quod! Ab amet, cupiditate dolores doloribus, error eum, harum ipsum libero minima nemo officia
+                        perferendis possimus quas tenetur?</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="i/persons/person2.png" alt="" class="rounded-circle"
+                         data-toggle="tooltip" data-placement="bottom" title="Design department"
+                    >
+                    <p class="lead">Desing department</p>
+                    <p class="info">Adipisci asperiores dicta explicabo facere, facilis illum incidunt maiores molestiae
+                        nesciunt quisquam quod reprehenderit rerum saepe soluta sunt tempora, temporibus. Ab amet
+                        aspernatur cupiditate enim, error numquam quidem sint temporibus.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="i/persons/person3.png" alt="" class="rounded-circle"
+                         data-toggle="tooltip" data-placement="bottom" title="Administrator"
+                    >
+                    <p class="lead">Administrator</p>
+                    <p class="info">Alias assumenda dolor ex neque, omnis porro praesentium sapiente sint. Architecto
+                        eius eveniet, ex harum iure magni mollitia nemo neque officia pariatur provident quasi quisquam
+                        reprehenderit saepe tempora ullam veritatis.</p>
+                </div>
+                <div class="col-md-3 text-center"><img src="i/persons/person4.png" alt="" class="rounded-circle">
+                    <p class="lead">CEO and Founder</p>
+                    <p class="info">Blanditiis dolorem, impedit. Accusantium, ad aut dolorum, expedita fugit, in
+                        obcaecati omnis praesentium quaerat quasi quis quod repudiandae saepe sapiente veritatis?
+                        Maiores nihil praesentium quam quidem ratione repellat sequi tempora.</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-3 text-center"><img src="i/persons/person5.png" alt="" class="rounded-circle">
+                    <p class="lead">CEO and Founder</p>
+                    <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus, ea eveniet
+                        ex facilis, fuga incidunt ipsum itaque libero molestias nemo omnis optio, quasi quisquam
+                        recusandae tempora unde velit voluptates.</p>
+                </div>
+                <div class="col-md-3 text-center"><img src="i/persons/person6.png" alt="" class="rounded-circle">
+                    <p class="lead">CEO and Founder</p>
+                    <p class="info">Ab, consectetur delectus dolorem, dolorum eaque, eius eligendi eveniet fugit
+                        laboriosam nam nemo quo quod rem reprehenderit sapiente soluta vitae. Autem debitis eum fugit
+                        labore nesciunt rem repudiandae ullam voluptates.</p>
+                </div>
+                <div class="col-md-3 text-center"><img src="i/persons/person7.png" alt="" class="rounded-circle">
+                    <p class="lead">CEO and Founder</p>
+                    <p class="info">Ad animi aut culpa deserunt enim est ex nemo optio reprehenderit sint? Ad laudantium
+                        quibusdam recusandae! Accusamus, autem doloribus ea eaque fugit, impedit in itaque, mollitia
+                        nostrum quidem sunt velit!</p>
+                </div>
+                <div class="col-md-3 text-center"><img src="i/persons/person8.png" alt="" class="rounded-circle">
+                    <p class="lead">CEO and Founder</p>
+                    <p class="info">Aspernatur aut eveniet expedita explicabo facilis hic id omnis quae quaerat,
+                        voluptas. Assumenda libero nobis nulla suscipit tenetur. Accusantium dicta ducimus nesciunt
+                        officiis pariatur provident, saepe tempore ullam. Omnis, sequi.</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-3 text-center"><img src="i/persons/person9.png" alt="" class="rounded-circle">
+                    <p class="lead">CEO and Founder</p>
+                    <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eveniet itaque
+                        optio perferendis quae, quaerat sit. Commodi cum inventore magni maxime nemo nulla odit officiis
+                        quas sequi. Dolorem, veritatis, vitae!</p>
+                </div>
+                <div class="col-md-3 text-center"><img src="i/persons/person10.png" alt="" class="rounded-circle">
+                    <p class="lead">CEO and Founder</p>
+                    <p class="info">Ad alias cumque doloribus eveniet illum incidunt ipsa nemo neque nesciunt nostrum
+                        numquam porro possimus praesentium provident quis quod sint sit, suscipit ut vel? Dolor
+                        excepturi incidunt non quam veritatis?</p>
+                </div>
+                <div class="col-md-3 text-center"><img src="i/persons/person11.png" alt="" class="rounded-circle">
+                    <p class="lead">CEO and Founder</p>
+                    <p class="info">A accusantium aliquid at blanditiis commodi, corporis cumque deleniti distinctio
+                        dolore enim, esse et eum in laudantium libero magni neque nihil nobis obcaecati, officia quas
+                        quia quo quod sequi voluptate!</p>
+                </div>
+                <div class="col-md-3 text-center"><img src="i/persons/person12.png" alt="" class="rounded-circle">
+                    <p class="lead">CEO and Founder</p>
+                    <p class="info">Ab beatae blanditiis corporis deleniti, deserunt dignissimos dolorem dolores earum
+                        eligendi facere facilis hic illum ipsam libero, minima nam nemo odio officia quia quo reiciendis
+                        repellendus sunt totam vero, voluptate.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="portfolio" class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1>Portfolio</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias corporis enim error est fugit impedit iste quas
+            quo repudiandae voluptatibus?</p>
+        <p>Blanditiis consequatur dolor ducimus illum, ipsum labore laboriosam necessitatibus quae quia quis! Beatae eaque
+            error maxime molestias natus optio, quaerat?</p>
+        <p>Animi architecto dolorum eligendi facere harum labore, laboriosam laborum minus nesciunt nihil, quam saepe
+            temporibus totam! Blanditiis corporis pariatur veniam!</p>
+
+        <a href="#" class="btn btn-large btn-primary">Read more...</a>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container-fluid">
+        <div class="page-header">
+            <h1>Contact as <small> any time</small></h1>
+        </div>
+
+        <form>
+            <div class="form-group"><label class="form-control-label"></label>
+                <input type="text"  class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-control-label">Email</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-control-label">Message</label>
+                <textarea class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary">send</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<footer class="bg-primary pt-3 pb-3">
+    <div class="container-fluid">
+        <a data-scroll href="#home">Home</a> |
+        <a data-scroll href="#services">Services</a> |
+        <a data-scroll href="#testimonials">Testimonials</a> |
+        <a data-scroll href="#team">Team</a> |
+        <a data-scroll href="#portfolio">Portfolio</a> |
+        <a data-scroll href="#contact">Contact</a>
+    </div>
+</footer>
+
+
+<!-- Java Script -->
+<script language="JavaScript">
+    var text = "Моя первая книга рецептов...";
+    i = 0;
+    function type(){
+        i++;
+        if( i <= text.length )
+            document.getElementById("type_text").innerHTML = text.substr(0, i);
+
+        setTimeout( type, 70 );
+    }
+    type();
+    </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<!--<script src="js/script.js"></script>-->
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+ <head>
+    <title>JavaScript - index.html</title>
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+     <style>
+         body {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+         }
+         .grid-box {
+             min-height:100vh;
+             display: grid;
+         }
+         .item {
+             padding: 1rem;
+             background: greenyellow;
+             border: 1px solid black;
+         }
+         .header {
+             background: gray;
+          }
+         .footer {
+             background: yellow;
+          }
+         .right {
+             background: #9c222d;
+          }
+
+         @media (min-width: 600px) {
+             .grid-box {
+
+                 grid-template-columns: 1fr 1fr;
+             }
+             .header {
+                 grid-column: 1/4;
+                 grid-row: 1/2;
+             }
+             .footer {
+                 grid-column: 1/4;
+                 grid-row: 4/5;
+             }
+             .right {
+                 grid-column: 1/4;
+                 grid-row: 3/ 4;
+             }
+         }
+
+         @media (min-width: 960px) {
+            .grid-box {
+               grid-template-columns: 2fr 6fr 2fr;
+                grid-template-rows: 1fr 5fr 1fr;
+            }
+             .header {
+                grid-column: 1/4;
+                grid-row: 1/2;
+            }
+            .footer {
+               grid-column: 1/4;
+                grid-row: 3/4;
+            }
+            .left {
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+            .center {
+                grid-column: 2/3;
+                grid-row: 2/3;
+            }
+            .right {
+                grid-column: 3/4;
+                grid-row: 2/3;
+            }
+        }
+         @media (min-width: 1100px) {
+             .left {
+                 grid-column: 3/4;
+                 grid-row: 2/3;
+             }
+             .right {
+                 grid-column: 1/2;
+                 grid-row: 2/3;
+             }
+         }
+     </style>
+
+    </head>
+<body>
+<div class="grid-box">
+    <div class="item header">Item 1</div>
+    <div class="item left">Item 2</div>
+    <div class="item center">Item 3</div>
+    <div class="item right">Item 4</div>
+    <div class="item footer">Item 5</div>
+  <!--  <div class="item">Item 6</div>
+    <div class="item">Item 7</div>
+    <div class="item">Item 8</div>
+    <div class="item">Item 9</div>
+    <div class="item">Item 10</div>-->
+
+</div>
+</body>
+</html>

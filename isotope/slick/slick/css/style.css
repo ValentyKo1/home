@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+}
+body {
+	font: 1rem 'Source Sans Pro', sans-serif; 
+}
+.main-area {
+	padding: 1rem 0;
+}
+.container {
+	max-width: 80rem;
+	margin: auto;
+}
+
+.slider1 {
+    padding: 1rem 0;
+}
+.slider1__item {
+    background-color: rgba(214,86,43, .3);
+    color: rgba(255,255,255,.9);
+    min-height: 300px;
+    width: 300px;
+}
+
+.mydots {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+}
+.mydots li {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    border-radius: 14px;
+    border: 1px solid navy;
+    background: white;
+}
+.mydots li.slick-active {
+    background-color:cadetblue;
+}
+img{
+    margin: auto;
+}

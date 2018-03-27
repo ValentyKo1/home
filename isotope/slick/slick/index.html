@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Slick</title>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="slider1">
+        <div class="slider1__item">
+            <div class="img"><img src="img/31c5a36b3c1af1e21a42219c4b4e83d2.jpg"></div>
+            <h1>Slide 1</h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur eaque est
+            excepturi laboriosam nisi nostrum, obcaecati reprehenderit rerum suscipit!
+        </div>
+        <div class="slider1__item">
+            <div class="img"><img src="img/646c77de253151ca21aee2922a10bc9b.jpg"></div>
+            <h1>Slide 2</h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur eaque est
+            excepturi laboriosam nisi nostrum, obcaecati reprehenderit rerum suscipit!
+        </div>
+        <div class="slider1__item">
+            <div class="img"><img src="img/7c0c55f0ab027045cb214d18a071cfed.jpg"></div>
+            <h1>Slide 3</h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur eaque est
+            excepturi laboriosam nisi nostrum, obcaecati reprehenderit rerum suscipit!
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+
+<script>
+    $('.slider1').slick({
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        dotsClass: 'mydots'
+    });
+</script>
+</body>
+</html>
